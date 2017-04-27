@@ -101,7 +101,7 @@ app.get('/articles/:articleName',function (req, res){
    });
   });
   
-function hash (input, salt) {
+/*function hash (input, salt) {
     // How do we create a hash?
     var hashed = crypto.pbkdf2Sync(input, salt, 10000, 512, 'sha512');
     return ["pbkdf2", "10000", salt, hashed.toString('hex')].join('$');
