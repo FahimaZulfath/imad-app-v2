@@ -12,7 +12,7 @@ var config = {
   database: 'fahimazulfath',
   host: 'db.imad.hasura-app.io',
   port: '5432',
-  password: db-fahimazulfath-18473,
+  password: 'db-fahimazulfath-18473',
   //  password: process.env.DB_PASSWORD,
 
 };
