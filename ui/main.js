@@ -1,4 +1,4 @@
-/*function loadLoginForm () {
+function loadLoginForm () {
          var loginHtml = `  
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="Your Username *" id="username" required data-validation-required-message="Please enter your Username." />
